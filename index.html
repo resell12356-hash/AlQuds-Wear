@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AlQuds Wear</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="#">AlQuds Wear</a>
+      <nav class="nav" id="nav">
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Welcome to AlQuds Wear</h1>
+        <p>Quality apparel inspired by tradition, made for everyday life.</p>
+        <a class="btn" href="#products">Shop Now</a>
+      </div>
+    </section>
+
+    <section id="products" class="products container">
+      <h2>Featured Products</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1520975918600-9d5b5d0b6f5a?q=80&w=800&auto=format&fit=crop&crop=entropy" alt="T-shirt">
+          <h3>Classic Tee</h3>
+          <p class="price">$19.99</p>
+          <button class="btn add-to-cart">Add to cart</button>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=800&auto=format&fit=crop&crop=entropy" alt="Hoodie">
+          <h3>Comfort Hoodie</h3>
+          <p class="price">$39.99</p>
+          <button class="btn add-to-cart">Add to cart</button>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1520975681919-1c60b4f4b5a7?q=80&w=800&auto=format&fit=crop&crop=entropy" alt="Cap">
+          <h3>Embroidered Cap</h3>
+          <p class="price">$14.99</p>
+          <button class="btn add-to-cart">Add to cart</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <h2>About Us</h2>
+      <p>AlQuds Wear blends cultural motifs with modern streetwear. We craft pieces that tell a story—comfortable, durable, and ethically sourced.</p>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2>Contact</h2>
+      <p>Email: hello@alqudswear.example</p>
+      <form id="contact-form">
+        <label for="name">Name</label>
+        <input id="name" name="name" required>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> AlQuds Wear — All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+# AlQuds Wear
+
+Welcome to AlQuds Wear - Premium quality clothing for everyone!
+
+## About
+
+AlQuds Wear is an online clothing store offering high-quality, affordable apparel including t-shirts, hoodies, jeans, and jackets.
+
+## Features
+
+- Responsive design that works on all devices
+- Product showcase with pricing
+- Contact form for customer inquiries
+- Modern and clean user interface
+- Easy navigation
+
+## Getting Started
+
+1. Clone this repository
+2. Open `index.html` in your web browser
+3. Customize the content, colors, and images as needed
+
+## Hosting on GitHub Pages
+
+To make your website live on the internet:
+
+1. Go to your repository: https://github.com/Ko-king123/AlQuds-Wear
+2. Click the **Settings** tab at the top
+3. In the left sidebar, scroll down and click **Pages**
+4. Under "Build and deployment":
+   - Click the dropdown that says "None"
+   - Select "Deploy from a branch"
+   - Then select `main` branch as the source
+   - Click Save
+5. Wait a few minutes, then your site will be live at: **https://ko-king123.github.io/AlQuds-Wear**
+
+## Customization
+
+You can customize:
+- **Colors**: Edit the color values in `styles.css`
+- **Content**: Update text in `index.html`
+- **Images**: Replace the product image placeholders with actual images
+- **Fonts**: Change font families in `styles.css`
+
+## Contact
+
+For inquiries, use the contact form on the website or reach out directly.
+
+---
+
+Made with ❤️ for AlQuds Wear
